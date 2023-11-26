@@ -11,6 +11,7 @@ import Combine
 
 class WorkViewController: UIViewController {
     
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var emptyDataVeiw: UIView!
     @IBOutlet weak var emptyDataLabel: UILabel!
@@ -57,14 +58,14 @@ class WorkViewController: UIViewController {
         }
         
         if let message = viewModel.emptyDataMessage {
-            self.tableView.isHidden = true
+            self.contentView.isHidden = true
             self.emptyDataVeiw.isHidden = false
             self.emptyDataLabel.text = message
             
         } else  {
             self.tableView.reloadData()
             self.emptyDataVeiw.isHidden = true
-            self.tableView.isHidden = false
+            self.contentView.isHidden = false
         }
     }
 }
