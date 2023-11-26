@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WorkRecordsTableViewHeader" customModule="SirmaTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="53"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HqD-o6-y5x">
+                    <rect key="frame" x="0.0" y="0.0" width="361" height="53"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xys-XG-4vU">
+                            <rect key="frame" x="0.0" y="0.0" width="0.66666666666666663" height="53"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="RGS-vx-WHh"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee #1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="099-oc-1B5">
+                            <rect key="frame" x="7.3333333333333357" y="0.0" width="76" height="53"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EBW-Xh-hqA">
+                            <rect key="frame" x="90" y="0.0" width="0.6666666666666714" height="53"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="s0x-Ji-PLk"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee #2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tC9-qX-rVA">
+                            <rect key="frame" x="96.666666666666686" y="0.0" width="77.333333333333314" height="53"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJf-l9-Vsc">
+                            <rect key="frame" x="180.33333333333334" y="0.0" width="0.33333333333334281" height="53"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="tIb-uI-VlN"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0f-FC-qU0">
+                            <rect key="frame" x="196" y="0.0" width="59.333333333333343" height="53"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9C-Gg-ltE">
+                            <rect key="frame" x="270.33333333333331" y="0.0" width="0.66666666666668561" height="53"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="Sly-g0-P13"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvf-0p-K4z">
+                            <rect key="frame" x="301" y="0.0" width="29.666666666666686" height="53"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOP-nV-2Ep">
+                            <rect key="frame" x="360.66666666666669" y="0.0" width="0.33333333333331439" height="53"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="I6K-15-4ch"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.6705882352941176" green="0.81176470588235294" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HqD-o6-y5x" secondAttribute="trailing" id="VpP-7c-MMC"/>
+                <constraint firstItem="HqD-o6-y5x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wa3-78-vTU"/>
+                <constraint firstItem="HqD-o6-y5x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wg6-eL-THd"/>
+                <constraint firstAttribute="bottom" secondItem="HqD-o6-y5x" secondAttribute="bottom" id="wPu-Wi-te4"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="368.70229007633588" y="-418.66197183098592"/>
+        </view>
+    </objects>
+</document>
