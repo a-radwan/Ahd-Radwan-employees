@@ -22,7 +22,7 @@ class FileUtils {
         
         var rows: [[String?]] = []
         
-        let lines = csvString.components(separatedBy: "\r\n")
+       let lines = csvString.components(separatedBy: CharacterSet.newlines)
         
         for line in lines {
             let fields = line.components(separatedBy: ",")
